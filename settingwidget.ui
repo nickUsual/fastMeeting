@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SettingWidget</class>
+ <widget class="QMainWindow" name="SettingWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>649</width>
+    <height>367</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="minimumSize">
+    <size>
+     <width>0</width>
+     <height>100</height>
+    </size>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_5">
+    <item>
+     <widget class="QTabWidget" name="tabWidget">
+      <property name="styleSheet">
+       <string notr="true">QTabWidget::pane{
+
+border-width:1px;
+
+border-style:solid;
+
+border-color:rgb(1, 124, 217);
+
+background:transparent;
+
+}
+
+QTabWidget::tab-bar{
+
+    alignment:left;
+
+}
+
+QTabBar::tab{
+
+/*background-color: rgb(1, 124, 217); */ /*浅蓝色*/
+
+background-color: rgb(4, 116, 191);  /*深蓝色*/
+
+color:white;
+
+min-width:30px;
+
+min-height:10px;
+
+border: 0px;
+
+padding:5px;
+
+}
+
+QTabBar::tab:selected{
+
+border-color: white;
+
+background-color: rgb(238, 159, 0); /*橘黄色*/
+
+color:white;
+
+}
+
+QTabBar::tab:!selected {
+
+margin-top: 5px;
+
+}
+</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
